@@ -1,0 +1,54 @@
+.hero-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .col-md-6 {
+    flex: 1;
+}
+
+.hero-section .col-md-6 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-section h1 {
+    color: #000000;
+}
+
+.hero-section p {
+    color: #555555;
+}
+
+.hero-section .btn-lg {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
+
+.countainer p{
+    color: #000000;
+}
+
+.kategori-section {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #c9bae6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action-section {
+    background-color: #1D063E;
+}
+
+.footer-section {
+    background-color: #1D063E;
+    color: white;
+}
